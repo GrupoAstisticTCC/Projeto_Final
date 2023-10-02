@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Redefinir senha";
+}
+
+@model UserRedSenhaModel
+<form asp-controller="Home" asp-action="MedRedSenha">
+        <div class="main-login">
+            <div class="left-login">
+                <img src="~/images/SVG/autism-animate.svg" class="left-login-image" alt="Austimo Animação">
+            </div>
+            <div class="right-login">
+                <div class="card-login"> <h1>Redefina sua senha</h1>
+                    <div class="textfield">
+                        <label for="usuario">Email</label>
+                        <input type="email" asp-for="Email" name="usuario" placeholder="Email" required maxlength="30">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Nova Senha</label>
+                        <input type="password" asp-for="Password" name="senha" placeholder="Nova senha" required maxlength="20">
+                    </div>
+                     <div class="textfield">
+                        <label for="senha">Confirmação de Senha</label>
+                        <input type="password" asp-for="RPassword" name="senha" placeholder="Confirme sua senha" required maxlength="20">
+                    </div>
+                    <input type="submit" value="Cadastrar" class="btn-login">
+                </div>
+            </div>
+        </div>
+    </form>

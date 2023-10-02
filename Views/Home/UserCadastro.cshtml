@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Cadastro";
+}
+@model CadastroModel
+
+<form asp-controller="Home" asp-action="UserCadastro">
+    <div class="main-login">
+        <div class="left-login">
+            <img src="~/images/SVG/autism-animate.svg" class="left-login-image" alt="Austimo Animação">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Cadastrar-se</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" asp-for="User" name="usuario" placeholder="Usuário" required maxlength="30">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Email</label>
+                    <input type="email" asp-for="Email" name="Email" placeholder="Email" required maxlength="50">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" asp-for="Password" name="Senha" placeholder="Senha" required maxlength="20
+                    ">
+                </div>
+                <div class="textfield">
+                    <label for="Repeat pessword">Repita a senha</label>
+                    <input type="password" asp-for="RPassword" name="RPass" id="RPass" placeholder="Senha" required maxlength="20">
+                    <label class="link"><a asp-controller="Home" asp-action="UserLogin" class="link">Já sou cadastrado</a></label>
+                    <div class="alinhar">
+                        <div class="top">
+                            <div class="alinhar">
+                                <input type="checkbox" name="termos" id="termos" class="check"  required>
+                                <label for="Termos de uso"><a class="link">Aceito os termos de uso</a></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Cadastrar" class="btn-login">
+            </div>
+        </div>
+    </div>
+</form>
+

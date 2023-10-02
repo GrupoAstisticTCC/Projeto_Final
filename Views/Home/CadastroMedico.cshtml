@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Cadastro médico";
+}
+<form action="">
+    <div class="main-login">
+        <div class="left-login">
+            <img src="~/images/SVG/autism-animate.svg" class="left-login-image" alt="Austimo Animação">
+        </div>
+        <div class="right-login">
+            <div class="card-log">
+                <h1>Profissional</h1>
+                <div class="d-flex">
+                    <div>
+                        <div class="textfield">
+                            <label for="Area de Atuação">Formação</label>
+                            <select name="formacao" id="formacao" required>
+                                <option value="" selected></option>
+                                <option value="Fonoaudiologo">Fonoaudiologo</option>
+                                <option value="Psicologo">Psicólogo</option>
+                                <option value="Terapeuta">Terapeuta</option>
+                            </select>
+                        </div>
+                        <div class="textfield">
+                            <label for="usuario">Nome</label>
+                            <input type="text" name="usuario" placeholder="Nome completo" required>
+                        </div>
+                        <div class="textfield">
+                            <label for="Email">Email</label>
+                            <input type="password" name="Email" placeholder="Email" required>
+                            <div class="d-flex" style="margin-bottom: 2%; margin-top: 6%;">
+                                <input type="checkbox" name="" id="" class="check">
+                                <label class="link">Aceito os termos de uso</label>
+                            </div>
+                            <a class="link" asp-controller="Home" asp-action="LoginMedico">Já sou cadastrado</a>
+                            <a class="link" asp-controller="Home" asp-action="">Esqueci minha senha</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="textfield" style="margin-left: 4%;">
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" placeholder="Senha" required>
+                        </div>
+                        <div class="textfield" style="margin-left: 4%;">
+                            <label for="telefone">Telefone de contato</label>
+                            <input type="tel" name="tel" id="tel" placeholder="Telefone">
+                        </div>
+                        <div class="textfield" style="margin-left: 4%;">
+                            <label for="Localização física">Localização física</label>
+                            <input type="text" name="Local" id="Local" placeholder="CEP (opicional)" required>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Cadastrar" class="btn-login">
+            </div>
+        </div>
+</form>
