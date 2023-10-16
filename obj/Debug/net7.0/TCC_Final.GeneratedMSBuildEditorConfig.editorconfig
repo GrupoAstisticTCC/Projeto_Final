@@ -16,24 +16,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\TCC_Final
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/TCC_Final/Views/Home/ACMedico.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBQ01lZGljby5jc2h0bWw=
+[D:/TCC_Final/Views/Home/AreaMed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcmVhTWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TCC_Final/Views/Home/CadastroMedico.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3Ryb01lZGljby5jc2h0bWw=
+[D:/TCC_Final/Views/Home/Brincadeiras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcmluY2FkZWlyYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TCC_Final/Views/Home/ContatoFono.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvRm9uby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TCC_Final/Views/Home/ContatoPis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvUGlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TCC_Final/Views/Home/ContatoTera.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvVGVyYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TCC_Final/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TCC_Final/Views/Home/LoginMedico.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbk1lZGljby5jc2h0bWw=
+[D:/TCC_Final/Views/Home/MedCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZWRDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TCC_Final/Views/Home/MedLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZWRMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TCC_Final/Views/Home/MedRedSenha.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZWRSZWRTZW5oYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TCC_Final/Views/Home/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TCC_Final/Views/Home/UserCadastro.cshtml]

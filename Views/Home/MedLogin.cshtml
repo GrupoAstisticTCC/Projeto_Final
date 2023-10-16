@@ -1,33 +1,31 @@
 @{
-    ViewData["Title"] = "Redefinir senha";
+    ViewData["Title"] = "Acessar sua conta";
 }
+@model MedLoginModel
 
-@model MedRedSenhaModel
-
-<form method="post" action="/Home/Recadastrar">
-   <div class="main-login">
+<form method="post" action="/Home/Acessar">
+    <div class="main-login">
         <div class="left-login">
-            <img src="~/images/SVG/Login.gif" class="left-login-image" alt="Austimo Animação">
+            <img src="~/images/SVG/Online_Doctor.gif" class="left-login-image" alt="Austimo Animação">
         </div>
-        <div class="left-login">
+        <div class="right-login">
             <div class="card-login">
-                <h1>Redefina sua senha</h1>
+                <h1>Login</h1>
                 <div class="textfield">
-                    <label for="usuario">Email</label>
+                    <label for="usuario">Usuário</label>
                     <input type="email" name="Email" placeholder="Email" required maxlength="30">
                 </div>
                 <div class="textfield">
-                    <label for="senha">Nova Senha</label>
-                    <input type="password" name="Password" placeholder="Nova senha" required
-                        maxlength="20">
+                    <label for="senha"> Senha</label>
+                    <input type="password" name="Password" placeholder="Senha" required maxlength="20">
                 </div>
-                <div class="textfield">
-                    <label for="senha">Confirmação de Senha</label>
-                    <input type="password" name="RPassword" placeholder="Confirme sua senha" required
-                        maxlength="20">
+                <div>
+                    <p><a asp-controller="Home" asp-action="MedRedSenha" class="link">Esqueci minha senha</a><a
+                            class="link">|</a><a class="link" asp-controller="Home"
+                            asp-action="MedCadastro">Cadastrar-se</a></p>
                 </div>
-                <input type="submit" value="Recadastrar" class="btn-login">
-                @if (TempData["EmailErro"] != null)
+                <input type="submit" value="Acessar" class="btn-login">
+                @if (TempData["Erro"] != null)
                 {
                     <div class="d-flex">
                         <div>
@@ -39,7 +37,7 @@
                         </div>
 
                         <div class="alert-color">
-                            @TempData["EmailErro"]
+                            @TempData["Erro"]
                         </div>
                     </div>
                 }

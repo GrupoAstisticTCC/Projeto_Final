@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\TCC_Final.bundle.scp.css"
     },
     {
+      "Id": "D:\\TCC_Final\\wwwroot\\css\\AreaMed.css",
+      "PackagePath": "staticwebassets\\css\\AreaMed.css"
+    },
+    {
+      "Id": "D:\\TCC_Final\\wwwroot\\css\\Contatos.css",
+      "PackagePath": "staticwebassets\\css\\Contatos.css"
+    },
+    {
       "Id": "D:\\TCC_Final\\wwwroot\\css\\UserCadastro.css",
       "PackagePath": "staticwebassets\\css\\UserCadastro.css"
+    },
+    {
+      "Id": "D:\\TCC_Final\\wwwroot\\css\\descritivo.css",
+      "PackagePath": "staticwebassets\\css\\descritivo.css"
     },
     {
       "Id": "D:\\TCC_Final\\wwwroot\\css\\home.css",
@@ -37,8 +49,24 @@
       "PackagePath": "staticwebassets\\images\\QRcode\\code4.png"
     },
     {
-      "Id": "D:\\TCC_Final\\wwwroot\\images\\SVG\\autism-animate.svg",
-      "PackagePath": "staticwebassets\\images\\SVG\\autism-animate.svg"
+      "Id": "D:\\TCC_Final\\wwwroot\\images\\SVG\\Autism.gif",
+      "PackagePath": "staticwebassets\\images\\SVG\\Autism.gif"
+    },
+    {
+      "Id": "D:\\TCC_Final\\wwwroot\\images\\SVG\\Cadastro.gif",
+      "PackagePath": "staticwebassets\\images\\SVG\\Cadastro.gif"
+    },
+    {
+      "Id": "D:\\TCC_Final\\wwwroot\\images\\SVG\\Doctors.gif",
+      "PackagePath": "staticwebassets\\images\\SVG\\Doctors.gif"
+    },
+    {
+      "Id": "D:\\TCC_Final\\wwwroot\\images\\SVG\\Login.gif",
+      "PackagePath": "staticwebassets\\images\\SVG\\Login.gif"
+    },
+    {
+      "Id": "D:\\TCC_Final\\wwwroot\\images\\SVG\\Online_Doctor.gif",
+      "PackagePath": "staticwebassets\\images\\SVG\\Online_Doctor.gif"
     },
     {
       "Id": "D:\\TCC_Final\\wwwroot\\images\\carrousel\\image1.png",
@@ -105,8 +133,8 @@
       "PackagePath": "staticwebassets\\images\\logo\\favcon.png"
     },
     {
-      "Id": "D:\\TCC_Final\\wwwroot\\images\\logo\\logo-finalizada.png",
-      "PackagePath": "staticwebassets\\images\\logo\\logo-finalizada.png"
+      "Id": "D:\\TCC_Final\\wwwroot\\images\\logo\\logoF.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logoF.png"
     },
     {
       "Id": "D:\\TCC_Final\\wwwroot\\js\\site.js",

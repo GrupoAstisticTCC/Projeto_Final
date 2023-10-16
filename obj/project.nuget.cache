@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OgXf/iecjFYWUUXoWgAgedhSBM3ar4VYWURHkYglXaCsAW7VzB0cqUQ6OsJ0vz8Sqa5hCbA7yxgp1KwzhHwqIg==",
+  "dgSpecHash": "78noaoOugk7ybrBuwZ9Px4yhy6no1RXs4M4e6RGJYkml4V5pqA8oiXFMcS2PRc7d41qvvh7kz/QfJgCVHnMlNQ==",
   "success": true,
   "projectFilePath": "D:\\TCC_Final\\TCC_Final.csproj",
   "expectedPackageFiles": [
@@ -14,11 +14,7 @@
     "C:\\Users\\augus\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\augus\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\augus\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\augus\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\augus\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.5\\microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
-    "C:\\Users\\augus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.5\\microsoft.windowsdesktop.app.ref.7.0.5.nupkg.sha512",
-    "C:\\Users\\augus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.5\\microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
-    "C:\\Users\\augus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.5\\microsoft.netcore.app.host.win-x64.7.0.5.nupkg.sha512"
+    "C:\\Users\\augus\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

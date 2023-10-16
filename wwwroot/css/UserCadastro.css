@@ -7,7 +7,8 @@
 }
 
 .main-login{
-    background-color:#0f1d4d ;
+    background-color:#4F94EA ;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,6 +19,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-right: 5%;
 }
 
 .left-login-image{
@@ -40,7 +42,7 @@
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background:  #38218a ;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     box-shadow: 0px 10px 40ox #00000056;
     margin-left: 70%;
@@ -49,7 +51,7 @@
 }
  
 .card-login > h1{
-    color: #d0df0a;
+    color: rgb(22, 107, 107);
     font-weight: 800;
     font-family: "Lexend", Arial, Helvetica, sans-serif;
 }
@@ -65,13 +67,13 @@
 
 .textfield > input{
     width: 300px;
-    border: none;
+    border: 3px solid lightblue;
     border-radius: 10px;
     padding: 15px;
-    background: #0f1d4d;
-    color: azure;
+    color: rgb(22, 107, 107);
     font-size: 12pt;
     box-shadow: 0px 10px 40ox #00000056;
+    
     outline: none;
     box-sizing: border-box;
 }
@@ -82,8 +84,8 @@
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #0f1d4d;
-    color: azure;
+    border: 3px solid lightblue;
+    color: darkcyan;
     font-size: 12pt;
     box-shadow: 0px 10px 40ox #00000056;
     outline: none;
@@ -91,7 +93,7 @@
 }
 
 .textfield > label{
-    color: azure;
+    color: darkcyan;
     margin-bottom: 10px;
 }
 
@@ -108,7 +110,8 @@
     border-radius: 8px;
     outline: none;
     font-weight: 800;
-    background: #d0df0a;
+    color: black;
+    background-color: #4F94EA;
     cursor: pointer;
     font-family: "Lexend", Arial, Helvetica, sans-serif;
     box-shadow: 0px 10px 40px -12px #28314dd7;
@@ -142,7 +145,7 @@
 
 .link
     {
-        color: white;
+        color: rgb(22, 107, 107);
         text-decoration: none;
         font-family:"Lexend", Arial, Helvetica, sans-serif;
         margin-bottom: 1%;
@@ -152,7 +155,7 @@
 
 .link:hover
 {
-    color: white;
+    color: rgb(22, 107, 107);;
     text-decoration: underline;
 }
 
@@ -187,16 +190,15 @@
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background:  #38218a ;
+    background:  white ;
     border-radius: 20px;
     box-shadow: 0px 10px 40ox #00000056;
-    margin-left: 20%;
     margin-top: 7%;
     margin-bottom: 7%;
 }
  
 .card-log > h1{
-    color: #d0df0a;
+    color: rgb(22, 107, 107);
     font-weight: 800;
     font-family: "Lexend", Arial, Helvetica, sans-serif;
 }
