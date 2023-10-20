@@ -1,0 +1,15 @@
+.coluna
+{
+    background-color: rgba(241, 241, 241, 0.9);
+}
+
+.game-image
+{
+    border-radius: 7px;
+}
+
+.game-description
+{
+    background-color: white;
+    border-radius: 7px;
+}

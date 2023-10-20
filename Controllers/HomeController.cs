@@ -221,6 +221,18 @@ public class HomeController : Controller
           return View();
      }
 
+     public IActionResult Sobre()
+     {
+          return View();
+     }
+
+     // Area de controle das views dos jogos
+
+     public IActionResult Games()
+     {
+          return View();
+     }
+
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
